@@ -1,11 +1,11 @@
 
-export const NavBar =()=>{
+ const NavBar =()=>{
     return (
        <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div id="">
             <div id="AppTitle" className="">
-              CRPTED
+              CryptX
             </div>
             <div id="Logo" className="">
             </div>
@@ -14,3 +14,5 @@ export const NavBar =()=>{
        </div>
     )
 }
+
+export default NavBar
